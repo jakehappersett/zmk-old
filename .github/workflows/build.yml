@@ -22,7 +22,7 @@ jobs:
           # - nice_nano
           # - nrfmicro_13
           # - proton_c
-          - airport_shuttle
+          
         shield:
           # - bfo9000_left
           # - bfo9000_right
@@ -60,24 +60,25 @@ jobs:
           # - splitreus62_left
           # - splitreus62_right
           # - tg4x
-          - tidbit
+          # - tidbit
         cmake-args: [""]
         include:
-          - board: bdn9_rev2
-          - board: dz60rgb_rev1
-          - board: nrf52840_m2
-            shield: m60
-          - board: planck_rev6
-          - board: proton_c
-            shield: clueboard_california
-          - board: nice_nano
-            shield: kyria_left
-            cmake-args: -DCONFIG_ZMK_DISPLAY=y
-            skip-archive: true
-          - board: nice_nano
-            shield: kyria_right
-            cmake-args: -DCONFIG_ZMK_DISPLAY=y
-            skip-archive: true
+          - board: airport_shuttle
+          # - board: bdn9_rev2
+          # - board: dz60rgb_rev1
+          # - board: nrf52840_m2
+          #   shield: m60
+          # - board: planck_rev6
+          # - board: proton_c
+          #   shield: clueboard_california
+          # - board: nice_nano
+          #   shield: kyria_left
+          #   cmake-args: -DCONFIG_ZMK_DISPLAY=y
+          #   skip-archive: true
+          # - board: nice_nano
+          #   shield: kyria_right
+          #   cmake-args: -DCONFIG_ZMK_DISPLAY=y
+          #   skip-archive: true
     steps:
       - name: Checkout
         uses: actions/checkout@v2
