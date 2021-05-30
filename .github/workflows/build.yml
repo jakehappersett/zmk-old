@@ -19,7 +19,7 @@ jobs:
       matrix:
         board:
           # - bluemicro840_v1
-          # - nice_nano
+          - nice_nano
           # - nrfmicro_13
           # - proton_c
           
@@ -48,7 +48,7 @@ jobs:
           # - microdox_left
           # - microdox_right
           # - nibble
-          # - qaz
+          - qaz
           # - quefrency_left
           # - quefrency_right
           # - reviung41
