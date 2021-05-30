@@ -22,6 +22,7 @@ jobs:
           - nice_nano
           - nrfmicro_13
           - proton_c
+          - airport_shuttle
         shield:
           - bfo9000_left
           - bfo9000_right
