@@ -21,7 +21,7 @@
   &kp LSFT      &kp Z         &kp X       &kp C   &kp V   &kp B   &kp N     &kp M   &kp CMMA  &kp DOT   &kp FSLH  &mo 1
   // | FN     | LGUI   | SKIP    | LALT    | ENTR    | SPACE   | GUI     | WHAT    | ENC     | FN    |
   // | 36     | 37     | 38      | 39      | 40      | 41      | 42      | 43      | 44      | 45    |
-      &kp CTRL  &mo 1   &trans    &kp LALT  &kp ENT    &kp SPC  &kp RGUI  &kp LARW  &kp DARW  &kp RARW
+      &kp LCTRL  &mo 1   &trans    &kp LALT  &kp ENT    &kp SPC  &kp RGUI  &kp LARW  &kp DARW  &kp RARW
       >;
     };
 
