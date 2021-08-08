@@ -14,6 +14,14 @@
   &kp LCTRL     &mo 2         &kp RALT            &kp SPC  &kp SPC    &kp SPC       &trans    &kp RGUI  &kp DARW  &lt 1 RET
       >;
     };
+    nav {
+      bindings = <
+  &kp GRAVE     &kp EXCL      &kp AT  &kp HASH  &kp DLLR    &kp PRCNT   &kp CARET   &kp AMPS  &kp STAR    &kp LPAR      &kp RPAR      &trans
+  &trans        &kp BSLH      &trans  &kp MINUS &kp EQUAL   &trans      &kp LEFT    &kp DOWN  &kp UP      &kp RIGHT     &trans        &kp F5
+  &trans        &trans        &trans  &trans    &kp LBRC    &kp RBRC    &kp LBKT    &kp RBKT  &kp HOME    &kp END       &kp INS       &trans
+  &trans &trans     &trans                   &trans &trans &trans               &trans    &trans    &trans    &trans
+      >;
+    };
 
   };
 };
