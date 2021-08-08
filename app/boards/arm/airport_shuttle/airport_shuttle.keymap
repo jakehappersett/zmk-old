@@ -7,14 +7,6 @@
     compatible = "zmk,keymap";
 
     default_layer {
-// -----------------------------------------------------------------------------------------
-// |  TAB  |  Q   |  W   |  E   |  R   |  T   |   Y   |  U    |  I   |  O   |   P   | BSPC  |
-// |  ESC  |  A   |  S   |  D   |  F   |  G   |   H   |  J    |  K   |  L   |   ;   |  '    |
-// | SHIFT |  Z   |  X   |  C   |  V   |  B   |   N   |  M    |  ,   |  .   |   /   |  RET  |
-// | FN    | LGUI | LALT | LCTL | LOWR |     SPACE    |  RAIS | LARW | DARW | UARW  |  RARW |
-// &reset 
-//&bt BT_NXT
-//&bt BT_CLR 
       bindings = <
   &kp TAB       &kp Q         &kp W       &kp E   &kp R   &kp T   &kp Y     &kp U   &kp I     &kp O     &kp P     &kp BKSP
   &lt 1 ESC     &kp A         &kp S       &kp D   &kp F   &kp G   &kp H     &kp J   &kp K     &kp L     &kp SCLN  &kp QUOT
@@ -30,6 +22,8 @@
   &trans        &trans        &trans  &trans    &kp LBRC    &kp RBRC    &kp LBKT    &kp RBKT  &kp HOME    &kp END       &kp INS       &trans
   &trans        &bootloader   &RALT                 &trans  &trans    &trans                  &trans      &bt BT_NXT    &bt BT_SEL 0  &bt BT_CLR
       >;
+    };
+    
     fun {
       bindings = <
       &trans &trans       &trans        &trans        &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans
