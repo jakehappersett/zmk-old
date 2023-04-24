@@ -9,34 +9,6 @@
 #define FUN   4
 
 / {
-    macros {
-        deskt_switch_left: deskt_switch_left {
-            label = "deskt_switch_left";
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings
-                = <&macro_press &kp LGUI>
-                , <&macro_press &kp LCTRL>
-                , <&macro_tap &kp Z &kp M &kp K>
-                , <&macro_release &kp LGUI>
-                , <&macro_release &kp LCTRL>
-                ;
-        };
-        deskt_switch_right: deskt_switch_right {
-            label = "deskt_switch_right";
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings
-                = <&macro_press &kp LGUI>
-                , <&macro_press &kp LCTRL>
-                , <&macro_tap &kp Z &kp M &kp K>
-                , <&macro_release &kp LGUI>
-                , <&macro_release &kp LCTRL>
-                ;
-        };
-    };
-};
-/ {
   keymap {
     compatible = "zmk,keymap";
 
