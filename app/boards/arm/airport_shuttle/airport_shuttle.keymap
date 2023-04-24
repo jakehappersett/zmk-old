@@ -47,7 +47,7 @@
   &kp LSFT      &kp Z         &kp X       &kp C   &kp V   &kp B   &kp N     &kp M   &kp CMMA  &kp DOT   &kp FSLH    &mo NUM
   &kp LCTRL     &mo NUM       &kp RALT            &kp SPC  &kp SPC    &kp SPC       &trans    &kp RGUI  &kp C_PP    &lt FUN RET
       >;
-      sensor-bindings = <&inc_dec_kp deskt_switch_left deskt_switch_right >;
+      sensor-bindings = <&inc_dec_kp C_VOL_DNP C_VOL_UP>;
     };
     mac {
       bindings = <
